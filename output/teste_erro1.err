@@ -1,0 +1,8 @@
+===== ERROS LEXICOS =====
+Tipo do Erro              Lexema          Linha  Coluna
+------------------------------------------------------
+ERR_CHAR_INVALIDO         @               5      13    
+ERR_CHAR_INVALIDO         $               6      12    
+ERR_CHAR_INVALIDO         %               7      12    
+------------------------------------------------------
+Total de erros: 3
