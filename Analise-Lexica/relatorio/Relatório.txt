@@ -1,0 +1,33 @@
+🔹 Introdução
+
+O analisador léxico tem como objetivo reconhecer os tokens da linguagem Micro Pascal, identificar erros léxicos, manter uma tabela de símbolos e registrar a posição de cada token.
+
+🔹 Funcionamento
+Implementado com AFD (Autômato Finito Determinístico)
+Estados tratam:
+identificadores
+números inteiros e reais
+operadores
+comentários
+🔹 Tabela de Símbolos
+Armazena identificadores únicos
+Evita duplicação
+Implementada com vetor
+🔹 Tratamento de erros
+
+O analisador detecta:
+
+caracteres inválidos → ERR_INVALID_CHAR
+comentário não fechado → ERR_UNCLOSED_COMMENT
+número real inválido → ERR_INVALID_REAL
+🔹 Saída
+
+Arquivo .lex contendo:
+
+lexema
+tipo do token
+linha
+coluna
+🔹 Testes
+
+Descreve os arquivos .pas e resultados obtidos.
